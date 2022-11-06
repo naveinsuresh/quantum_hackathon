@@ -1,0 +1,16 @@
+
+https://www.youtube.com/watch?v=dscRoTBPeso&ab_channel=Qiskit
+minute 6 and beyond explain Shor's algorithm. 
+
+why? factor primes. why factor primes? because prime numbers are integral to cryptography and public key crptosystems which we use to communicate with 
+one another
+
+https://quantum-algorithms.herokuapp.com/299/paper/node19.html
+https://quantum-algorithms.herokuapp.com/299/paper/node22.html
+steps to Shor's algorithm
+
+https://github.com/smaranjitghose/quantum_burglary/blob/master/quantum_burglary.ipynb
+good visual for RSA
+
+
+

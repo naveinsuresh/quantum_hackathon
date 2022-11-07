@@ -1,0 +1,44 @@
+Period Finding:
+
+f(x) = a^x mod N 
+or remainder of (a^x/N) is equal to 2
+
+N = number to be factored, example: 15, 35, 43621
+15 is the product of two prime numbers
+
+or N is the multiplication of 2 prime numbers
+15 = 3*5 |  3 and 5 are prime numbers
+43621 = 181*241 | 181 and 241 are prime numbers
+
+a = number coprime with N
+gcd(a,N) = 1 // greatest common divider
+example: a = 13, N = 15
+gcd(13,15) = 1
+
+so make sure gcd(a,N) is equal to 1
+
+find order r
+a^r mod N = 1
+or remainder of (a^r/N) is equal to 1
+
+if r is even
+x is congruent modelo with a^(r/2) mod(N) . // triple equal 
+or x =t a^(r/2) mod(N)
+or x - a^(r/2) is divisble by N 
+or x - a^(r/2) % N = 0
+
+solve for x,
+if x + 1 !=t 0 (mod N)
+or x + 1 - 0 % N != 0
+then {p,q} = {gcd(x + 1, N), gcd(x - 1,N)}
+
+else: find another a
+
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+Quantum Phase Estimation
+
+
+
+

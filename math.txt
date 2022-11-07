@@ -70,4 +70,46 @@ U^(r-1) |1> = |12>
 U^(r) |1> = |1>
 
 
+// i skimmed some math
+
+1/((r)^(1/2)) * summation from s = 0 to r minus 1 of |us> = |1>
+
+phi = s/r
+
+
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+Qiskit Implementation
+
+a = 7, N = 15
+
+U|y> = |7 * y mod 15>
+
+to create U^x 
+simply repeat circuit x times.
+
+function c_amod15 returns controlled-U gate for a, repated power times
+
+use 8 counting qubits
+
+import QFT
+
+ create qunatum circuit with n_count, counting qubits
+ plus 4 qubits for U to act on
+ initialize counting qubits
+ do controlled-U operations
+
+ Do inverse-QFT
+ measure circuit
+
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+More efficient Qiskit Implementation
+
+a^(2^j) mod N 
+
+
+
 

@@ -12,5 +12,6 @@ Steps to set up local:
 
 once installed jupyterlab in your virtual environment,
 7. jupyter notebook // will open jupyter kernel to start programming
+8. pip install rsa // rsa library
 
 

@@ -1,0 +1,16 @@
+Steps to set up local:
+
+1. have Python, my version: Python 3.10.8
+2. have pip installed, my version: pip 22.2.2
+2. python3 -m venv /path/to/virtual/environment, // create virtual environment
+3. source /path/to/virtual/environment/bin/activate // activate virtual environment
+4. pip install qiskit //install qiskit
+5. pip install qiskit[visualization] // install visualization support
+6. pip install jupyterlab //install more jupytersupport
+
+
+
+once installed jupyterlab in your virtual environment,
+7. jupyter notebook // will open jupyter kernel to start programming
+
+

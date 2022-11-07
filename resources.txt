@@ -13,4 +13,9 @@ https://github.com/smaranjitghose/quantum_burglary/blob/master/quantum_burglary.
 good visual for RSA
 
 
+https://nbviewer.org/github/mett29/Shor-s-Algorithm/blob/master/Shor.ipynb?flush_cache=true
+https://github.com/qiskit-community/qiskit-community-tutorials/blob/master/algorithms/shor_algorithm.ipynb
+https://quantum-computing.ibm.com/composer/docs/iqx/guide/shors-algorithm
+
+// nicer condensed version of Shor
 

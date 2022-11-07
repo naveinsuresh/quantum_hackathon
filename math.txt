@@ -110,6 +110,8 @@ More efficient Qiskit Implementation
 
 a^(2^j) mod N 
 
+J is just and index!!!!!!!
+
 
 
 

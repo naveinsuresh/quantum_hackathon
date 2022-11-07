@@ -1,7 +1,7 @@
 Period Finding:
 
 f(x) = a^x mod N 
-or remainder of (a^x/N) is equal to 2
+or remainder of (a^x/N) is equal to f(x)
 
 N = number to be factored, example: 15, 35, 43621
 15 is the product of two prime numbers
@@ -11,9 +11,10 @@ or N is the multiplication of 2 prime numbers
 43621 = 181*241 | 181 and 241 are prime numbers
 
 a = number coprime with N
-gcd(a,N) = 1 // greatest common divider
+gcd(a,N) = 1 // greatest common diviser
 example: a = 13, N = 15
-gcd(13,15) = 1
+gcd(13,15) = 1 . // 13 is divisble only by 1, 15: 3,5,1. 1 is the gcd
+gcd(4,15) = 1 // 4 is divisible by 1 and 2, 15: 3,5,1. 1 is gcd
 
 so make sure gcd(a,N) is equal to 1
 
@@ -39,6 +40,34 @@ else: find another a
 ----------------------------------------------------------------------
 Quantum Phase Estimation
 
+Shor's solution: QPE on the unitary operator
+
+QPE = allows us to convert phase information into amplitudes that we 
+can measure
+
+givern unitary operator U.
+
+https://qr.ae/pv3kT4 // quora answer, John H. Morrison
+unitary operator: operator that can change coordinates or state itself
+requirement is not change the magnitude of the states
+
+// I assume in hilbert state it changes measurement from north south, 
+// to east west 
+
+U |psi> = e^(2*pi*i*theta)*|psi> // idk
+
+shor's solution: 
+
+U|y> =t |a*y mod(N)>
+
+if we start in stat |1> 
+each successive application of U will multiply state of register by 
+a (mod N) 
+after r applications we will arrive at state |1> again
+
+if N = 35 and a = 3:
+U^(r-1) |1> = |12>
+U^(r) |1> = |1>
 
 
 

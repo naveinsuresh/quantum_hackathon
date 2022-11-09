@@ -1,1 +1,1 @@
-# quantum_hackathon
+# Error Correcting Scheme (Shor's Algorithm)
